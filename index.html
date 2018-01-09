@@ -271,23 +271,35 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       <h4 id="shell-windows">Windows</h4>
       <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       <ol>
-        <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
-        <li>Run the installer and follow the steps bellow:
+        <li>Download the Git for Windows <a href="http://gitforwindows.org/">installer</a>.</li>
+        <li>Run the installer and follow the steps below (instructions based on Git for Windows version 2.15.1.2):
           <ol>
-            <!-- Git 2.8.2 Setup -->
+            <!-- Git 2.15.1.2 Setup -->
             <!-- Information -->
+            <li>Click on "Next".</li>
+            <!-- Select Destination -->
             <li>Click on "Next".</li>
             <!-- Select Components -->
             <li>Click on "Next".</li>
+            <!-- Select Start Menu Folder -->
+            <li>Click on "Next".</li>
+            <!-- Choosing the default editor -->
+            <li>
+              <strong>
+                Choose "Use the Nano editor by default" and click on "Next".
+              </strong>
+            </li>
             <!-- Adjusting your PATH environment -->
             <li>
               <strong>
                 Keep "Use Git from the Windows Command Prompt" selected and click on "Next".
               </strong>
-                If you forgot to do this programs that you need for the workshop will not work properly.
-                If this happens rerun the installer and select the appropriate option.
+                If you make a different selection, the programs that you need for the workshop will not work properly.
+                If this happens rerun the installer and keep the default choice selected.
             </li>
             <!-- Choosing the SSH executable -->
+            <li>Click on "Next".</li>
+            <!-- Choose HTTPS transport -->
             <li>Click on "Next".</li>
             <!-- Configuring the line ending conversions -->
             <li>
@@ -298,11 +310,11 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
             <!-- Configuring the terminal emulator to use with Git Bash -->
             <li>
               <strong>
-                Keep "Use Windows' default console window" selected and click on "Next".
+                Choose "Use Windows' default console window" and click on "Next".
               </strong>
             </li>
-            <!-- Configuring experimental performance tweaks -->
-            <li>Click on "Install".</li>
+            <!-- Configuring extra options -->
+            <li>Click on "Install"</li>
             <!-- Installing -->
             <!-- Completing the Git Setup Wizard -->
             <li>Click on "Finish".</li>
@@ -422,9 +434,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       <h4 id="editor-windows">Windows</h4>
       <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       <p>
-        nano is a basic editor and the default that instructors use in the workshop.
-        To install it,
-        download the <a href="{{site.swc_installer}}">
+        nano is a basic editor and the default that instructors use in the workshop. If you have installed Git for Windows version 2.15.1.2 as part of the Bash Shell setup (above), you do not need to install nano separately.
+        For Git for Windows versions older than 2.15.1.2, install nano by
+        downloading the <a href="{{site.swc_installer}}">
           {% if page.carpentry == "swc" %}
           Software Carpentry
           {% elsif page.carpentry == "dc" %}
@@ -439,7 +451,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       </p>
       <p>
         Others editors that you can use are
-        <a href="http://notepad-plus-plus.org/">Notepad++</a> or
+        <a href="http://notepad-plus-plus.org/">Notepad++</a>,
+        <a href="http://atom.io/">Atom</a>, or
         <a href="http://www.sublimetext.com/">Sublime Text</a>.
         <strong>Be aware that you must
           add its installation directory to your system path.</strong>
@@ -456,7 +469,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       </p>
       <p>
         Others editors that you can use are
-        <a href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a> or
+        <a href="http://atom.io/">Atom</a> or
         <a href="http://www.sublimetext.com/">Sublime Text</a>.
       </p>
     </div>

@@ -6,7 +6,7 @@
 carpentry: "swc"
 
 # Overall title for pages.
-title: "KU Libraries Git Workshop"
+title: "KU Chemistry Git Workshop"
 
 # Contact email address.
 email: jamenebk@ku.edu
@@ -20,7 +20,7 @@ kind: "workshop"
 
 # Magic to make URLs resolve both locally and on GitHub.
 # See https://help.github.com/articles/repository-metadata-on-github-pages/.
-repository: jbkieffer/20170721-git-kulib
+repository: jbkieffer/20180111-git-chem
 
 # Sites.
 amy_site: "https://amy.software-carpentry.org/workshops"
